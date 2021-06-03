@@ -1,6 +1,6 @@
 const mongoose =require('mongoose')
 const fs= require("fs")
-const connectionString = 'mongodb+srv://alaa:alaa0966405529@alaa.fetj3.mongodb.net/bloger?retryWrites=true&w=majority'
+const connectionString = 'mongodb+srv:????????????????'
 function connect() {
     return new Promise((resolve, reject) => {
         if (mongoose.connection.readyState === 1) {
